@@ -63,4 +63,3 @@
 set :deploy_to, '/home/nishanthan/RubyProjects/Deployed/Capistrano_app'
 set :rails_env, "development"
 set :user, "nishanthan"
-
