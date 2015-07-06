@@ -6,9 +6,9 @@ lock '3.4.0'
 
 set :application, "Capistrano_app"
 set :repo_url, "git@github.com:NishanthanMK/Capistrano_app.git"
+set :bundle_without, 'development test'
 
 # role :all, %w{deploy@server.com}
-server '10.2.3.154', user: 'nishanthan', roles: %w{web app}
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
